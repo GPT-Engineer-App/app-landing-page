@@ -8,21 +8,31 @@ const Index = () => {
       <Box as="header" py={4} borderBottom="1px" borderColor="gray.200">
         <Container maxW="container.xl">
           <Flex align="center">
-            <Heading as="h1" size="lg">
-              ProBau
-            </Heading>
-            <Spacer />
+            {/* Navigation Links Update */}
             <HStack as="nav" spacing={4}>
-              <Link href="#features" color="highlight.500">
-                Features
+              <Link href="/" color="highlight.500">
+                Home
               </Link>
-              <Link href="#pricing" color="highlight.500">
-                Pricing
+              <Link href="/ueber-uns" color="highlight.500">
+                Über uns
               </Link>
-              <Link href="#about" color="highlight.500">
-                About
+              <Link href="/dienstleistungen" color="highlight.500">
+                Dienstleistungen
+              </Link>
+              <Link href="/projekte" color="highlight.500">
+                Projekte
+              </Link>
+              <Link href="/fuer-unternehmen" color="highlight.500">
+                Für Unternehmen
+              </Link>
+              <Link href="/ressourcen" color="highlight.500">
+                Ressourcen
+              </Link>
+              <Link href="/kontakt" color="highlight.500">
+                Kontakt
               </Link>
             </HStack>
+            <Spacer />
           </Flex>
         </Container>
       </Box>
