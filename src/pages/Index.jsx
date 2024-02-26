@@ -13,9 +13,15 @@ const Index = () => {
             </Heading>
             <Spacer />
             <HStack as="nav" spacing={4}>
-              <Link href="#features">Features</Link>
-              <Link href="#pricing">Pricing</Link>
-              <Link href="#about">About</Link>
+              <Link href="#features" color="highlight.500">
+                Features
+              </Link>
+              <Link href="#pricing" color="highlight.500">
+                Pricing
+              </Link>
+              <Link href="#about" color="highlight.500">
+                About
+              </Link>
             </HStack>
           </Flex>
         </Container>
@@ -29,7 +35,7 @@ const Index = () => {
           <Text fontSize="xl" mt={4}>
             The next generation application to solve your problems.
           </Text>
-          <Button colorScheme="blue" size="lg" mt={6}>
+          <Button backgroundColor="brand.500" color="white" size="lg" mt={6} _hover={{ bg: "brand.600" }}>
             Get Started <Icon as={FaRocket} ml={2} />
           </Button>
         </Box>
@@ -41,7 +47,7 @@ const Index = () => {
             </Heading>
             <Flex direction={{ base: "column", md: "row" }} justify="center" align="center" spacing={10}>
               <VStack maxW="sm" textAlign="center" spacing={4}>
-                <Icon as={FaLayerGroup} w={10} h={10} color="blue.500" />
+                <Icon as={FaLayerGroup} w={10} h={10} color="brand.500" />
                 <Heading as="h4" size="md">
                   Feature One
                 </Heading>
@@ -62,7 +68,7 @@ const Index = () => {
           <Heading as="h3" size="xl" mb={6}>
             Ready to get started?
           </Heading>
-          <Button colorScheme="green" size="lg">
+          <Button backgroundColor="brand.500" color="white" size="lg" _hover={{ bg: "brand.600" }}>
             Sign Up for Free
           </Button>
         </Box>
@@ -70,7 +76,7 @@ const Index = () => {
 
       <Box as="footer" py={4} borderTop="1px" borderColor="gray.200">
         <Container maxW="container.xl">
-          <Flex direction={{ base: "column", md: "row" }} justify="space-between" align="center">
+          <Flex direction={{ base: "column", md: "row" }} justify="space-between" align="center" bgColor="brand.50">
             <HStack spacing={4}>
               <Link href="https://twitter.com" isExternal>
                 <Icon as={FaTwitter} boxSize={6} />
@@ -82,7 +88,7 @@ const Index = () => {
                 <Icon as={FaInstagram} boxSize={6} />
               </Link>
             </HStack>
-            <Text>© 2023 AppName. All rights reserved.</Text>
+            <Text color="accent.900">© 2024 AppName. All rights reserved.</Text>
           </Flex>
         </Container>
       </Box>
