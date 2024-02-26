@@ -9,7 +9,7 @@ const Index = () => {
         <Container maxW="container.xl">
           <Flex align="center">
             <Heading as="h1" size="lg">
-              AppName
+              ProBau
             </Heading>
             <Spacer />
             <HStack as="nav" spacing={4}>
@@ -30,7 +30,7 @@ const Index = () => {
       <VStack as="main" spacing={10} py={10}>
         <Box textAlign="center" pt={10}>
           <Heading as="h2" size="2xl">
-            Welcome to AppName
+            Welcome to ProBau
           </Heading>
           <Text fontSize="xl" mt={4}>
             The next generation application to solve your problems.
@@ -88,7 +88,7 @@ const Index = () => {
                 <Icon as={FaInstagram} boxSize={6} />
               </Link>
             </HStack>
-            <Text color="accent.900">© 2024 AppName. All rights reserved.</Text>
+            <Text color="accent.900">© 2024 ProBau. All rights reserved.</Text>
           </Flex>
         </Container>
       </Box>
